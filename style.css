@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    overflow: hidden;
+}
+.main{
+    background-image: url("images/bg.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+}
+
+.char {
+    position: absolute;
+    bottom: 10px;
+    object-fit: cover;
+  }
+  
+  #char1 {
+    width: 300px;
+    height: 290px;
+    left: 25px;
+  }
+  
+  #char2 {
+    width: 280px;
+    height: 270px;
+    right: 10px;
+    
+  }
